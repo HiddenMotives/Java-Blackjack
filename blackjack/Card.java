@@ -52,11 +52,11 @@ public class Card {
             case "A":
                 return 1;
             case "J":
-                return 11;
+                return 10;
             case "Q":
-                return 12;
+                return 10;
             case "K":
-                return 13;
+                return 10;
             default:
                 return Integer.parseInt(this.getFace());
         }
